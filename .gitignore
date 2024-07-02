@@ -1,0 +1,17 @@
+# Ignora archivos compilados y ejecutables
+*.o
+*.out
+
+# Ignora archivos generados por el compilador
+build/
+bin/
+
+# Ignora archivos de configuración específicos del entorno
+.vscode/
+.idea/
+
+# Ignora archivos de respaldo
+*~
+
+# Ignora archivos de registro
+*.log

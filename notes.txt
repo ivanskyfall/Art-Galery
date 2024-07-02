@@ -1,0 +1,27 @@
+En una Galería de Arte se desea automatizar el control de las obras. Para este proceso se tiene la siguiente información:
+De cada obra se conoce su código que la identifica, su título, precio de salida, años de antigüedad.
+Si es una pintura, se conoce además su estilo 
+(cubismo, realismo, impresionismo, etc), 
+tipo de técnica usada (aguafuerte, acuarela, etc),
+ escuela artística a la que pertenece el estilo con el cuál fue pintada (el nombre solamente).
+Por otro lado si es una escultura, se conoce el material con que fue realizada,
+ sus dimensiones (pequeña, mediana o grande) y si es reproducción u original.
+El sistema debe permitir:
+- insertar, modificar, eliminar, mostrar y listar, 
+la información de todas las entidades que se manejan en el negocio.
+
+El sistema debe contar además con las siguientes opciones:
+a) Dado el estilo de una pintura, listar todas las obras de este estilo.
+b) Listar las esculturas que son originales, por dimensiones.
+c) Descontar el 10% del precio de salida a las esculturas que son reproducción y tienen más de 10 años de antigüedad.  
+d) Ordenar todas las obras por precio (de mayor a menor), si el precio coincide, considerar mayor aquella que tenga menos años de antigüedad (opcional)
+
+
+
+Implementación:
+
+1. Clase Artwork
+2. Clase Picture heredada de Artwork
+3. Clase Sculpture heredada de Artwork
+4. Clase Node
+5. Clase List
